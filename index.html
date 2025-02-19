@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assests/logo.webp" type="image/x-icon">
+    <title>Peddy</title>
+    <!-- daisyUI  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+
+    <!-- navbar  -->
+    <nav class="py-4">
+        <div class="w-10/12 mx-auto flex justify-around items-center">
+            <div class="flex items-center space-x-2">
+                <img src="assests/logo.webp" alt="" class="rounded-full" />
+                <a href="#" class="text-primary-foreground text-lg font-semibold">Peddy</a>
+            </div>
+            <ul class="hidden md:flex space-x-4">
+                <li><a href="#" class="text-primary-foreground hover:text-primary/80">Home</a></li>
+                <li><a href="#" class="text-primary-foreground hover:text-primary/80">Shop</a></li>
+                <li><a href="#" class="text-primary-foreground hover:text-primary/80">Contact</a></li>
+            </ul>
+            <div>
+                <img class="w-7" src="https://img.icons8.com/?size=50&id=23264&format=png" />
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end  -->
+
+    <!-- banner section  -->
+    <div class="hero min-h-screen">
+        <div class="hero-content text-center flex-col">
+            <div class="max-w-lg">
+                <h1 class="text-gray-400 text-xl mb-3">Bringing Families Together ❤️‍🔥</h1>
+                <h1 class="text-5xl font-bold">Your Path to Adoption Starts Here </h1>
+                <p class="py-6">
+                    It is a long established fact that a reader will be distracted by the readable content of a page
+                    when looking at its layout. The point of using Lorem Ipsum is that it has a.
+                </p>
+                <button class="btn bg-[#0E7A81] text-white">View More</button>
+            </div>
+            <div class="mb-6">
+                <img src="assests/pet.webp" alt="">
+            </div>
+            <div class="max-w-lg">
+                <h1 class="text-3xl font-bold">Adopt Your Best Friend</h1>
+                <p class="py-6 text-gray-500">It is a long established fact that a reader will be distracted by the
+                    readable
+                    content
+                    of a
+                    page when
+                    looking at its layout. The point of using Lorem Ipsum is that it has a.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main section  -->
+    <section class="w-10/12 mx-auto my-8 lg:my-14">
+        <!-- all category div  -->
+        <div id="category">
+
+        </div>
+        <!-- sort by div  -->
+        <div class="flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Best Deal For You</h1>
+            <button class="btn bg-[#0E7A81] text-white">Sort by Price</button>
+        </div>
+        <!-- all pets div  -->
+        <div>
+
+        </div>
+    </section>
+    <!-- Main Section end  -->
+
+    <!-- footer section  -->
+    <footer class="bg-black text-white text-foreground p-8 md:flex md:justify-around md:items-start">
+        <div class="md:mr-8">
+            <div class="flex items-center mb-5">
+                <img aria-hidden="true" alt="social-icon" src="assests/logo.webp" class="w-8 h-8 mr-2" />
+                <h2 class="text-xl font-bold">Peddy</h2>
+            </div>
+            <p>Location: av. Washington 165, NY CA 54003</p>
+            <p>Phone: +31 85 964 47 25</p>
+            <p>Email: <a href="mailto:info@yourdomain.com" class="text-primary hover:underline">info@yourdomain.com</a>
+            </p>
+            <p>Opening hours: 9:00 AM - 5:00 PM</p>
+            <div class="flex flex-wrap mt-2">
+                <a href="#" class="text-muted hover:text-muted-foreground mr-4">Facebook</a>
+                <a href="#" class="text-muted hover:text-muted-foreground mr-4">YouTube</a>
+                <a href="#" class="text-muted hover:text-muted-foreground">Instagram</a>
+            </div>
+        </div>
+        <div class="mt-4 md:mt-0">
+            <h3 class="font-semibold mb-5">Useful Links</h3>
+            <ul class="space-y-1">
+                <li><a href="#" class="text-zinc-400 hover:text-muted-foreground">Home</a></li>
+                <li><a href="#" class="text-zinc-400 hover:text-muted-foreground">About Us</a></li>
+                <li><a href="#" class="text-zinc-400 hover:text-muted-foreground">Animals</a></li>
+                <li><a href="#" class="text-zinc-400 hover:text-muted-foreground">Foundation</a></li>
+                <li><a href="#" class="text-zinc-400 hover:text-muted-foreground">Contact</a></li>
+            </ul>
+        </div>
+        <div class="mt-4 md:mt-0">
+            <h3 class="font-semibold mb-5">Drop a Message</h3>
+            <input type="email" placeholder="Enter your email"
+                class="border border-border rounded-md p-2 mb-2 w-full" />
+            <button
+                class="bg-[#0E7A81] text-primary-foreground hover:bg-green-800 rounded-md p-2 w-full">Subscribe</button>
+        </div>
+    </footer>
+    <!-- script  -->
+    <script src="script/index.js"></script>
+</body>
+
+</html>
