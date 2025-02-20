@@ -9,7 +9,6 @@
     <!-- daisyUI  -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-
 </head>
 
 <body>
@@ -43,7 +42,9 @@
                     It is a long established fact that a reader will be distracted by the readable content of a page
                     when looking at its layout. The point of using Lorem Ipsum is that it has a.
                 </p>
-                <button class="btn bg-[#0E7A81] text-white">View More</button>
+                <a href="#main-section">
+                    <button class="btn bg-[#0E7A81] text-white">View More</button>
+                </a>
             </div>
             <div class="mb-6">
                 <img src="assests/pet.webp" alt="">
@@ -61,7 +62,7 @@
     </div>
 
     <!-- Main section  -->
-    <section class="w-10/12 mx-auto my-8 lg:my-14">
+    <section id="main-section" class="w-10/12 mx-auto my-8 lg:my-14">
         <!-- all category div  -->
         <div class="py-3 lg:gap-5 lg:flex md:flex text-center justify-center items-center " id="category">
 
@@ -70,18 +71,21 @@
         <div class="flex justify-between items-center my-12
         ">
             <h1 class="text-2xl font-bold">Best Deal For You</h1>
-            <button class="btn bg-[#0E7A81] text-white">Sort by Price</button>
+            <button id="sort-price" class="btn bg-[#0E7A81] text-white">Sort by Price</button>
         </div>
         <!-- all pets div  -->
-        <div class="grid grid-cols-4 gap-4">
-            <div class="col-span-3">
-                <div class="grid grid-cols-3 gap-4" id="pets">
+        <div class="grid md:grid-cols-4 gap-4">
+            <div class="md:col-span-3">
+                <div class="grid md:grid-cols-3 gap-4" id="pets">
 
                 </div>
             </div>
-            <div class="border-2 border-gray-200 rounded-lg">
+            <div id="liked-pets" class="border-2 border-gray-200 rounded-lg grid-cols-2">
 
             </div>
+        </div>
+        <!-- modal -->
+        <div id="modal-container">
         </div>
     </section>
     <!-- Main Section end  -->
